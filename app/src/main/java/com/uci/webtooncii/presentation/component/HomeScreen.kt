@@ -63,10 +63,11 @@ import androidx.compose.runtime.setValue
 fun HomeScreen(
     navController: NavController,
     modifier: Modifier = Modifier,
-    webtoons: List<Webtoon> = DummyData.listwebtoon3,
+    webtoons: List<Webtoonh> = DummyData.listwebtoon,
 //    webtoonsy: List<Webtoon> = DummyData.listwebtoon4,
 ) {
-
+val webtoon1 = webtoons.take(10)
+    val webtoon2 = webtoons.takeLast(10)
 
 
 
@@ -95,14 +96,14 @@ fun HomeScreen(
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            items(webtoons, key = { it.id }) { webtoon ->
+                            items(webtoon1, key = { it.id }) { webtoon ->
                                 WebtoonItem(webtoon = webtoon) { webtoonId ->
                                     navController.navigate(Screen.Detail.route + "/$webtoonId")
                                 }
                             }
                         }
                     }
-                    items(webtoons, key = { it.id }) { webtoon ->
+                    items(webtoon2, key = { it.id }) { webtoon ->
                         WebtoonItem2(
                             webtoon2 = webtoon,
                             modifier = Modifier.padding(horizontal = 16.dp)
@@ -116,7 +117,7 @@ fun HomeScreen(
 
 @Composable
 fun WebtoonItem2(
-    webtoon2: Webtoon,
+    webtoon2: Webtoonh,
     modifier: Modifier,
     onItemClicked: (Int) -> Unit
 ) {

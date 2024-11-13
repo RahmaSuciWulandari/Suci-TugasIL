@@ -20,10 +20,11 @@ import androidx.compose.ui.unit.dp
 import com.uci.webtooncii.ui.theme.WebToonCiiTheme
 import com.uci.webtooncii.R
 import com.uci.webtooncii.model.Webtoon
+import com.uci.webtooncii.model.Webtoonh
 
 @Composable
 fun WebtoonItem(
-    webtoon: Webtoon,
+    webtoon: Webtoonh,
     modifier: Modifier = Modifier,
     onItemClicked: (Int) -> Unit
 ) {
@@ -59,15 +60,3 @@ fun WebtoonItem(
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-private fun WebtoonItemHorizontalPreview() {
-    WebToonCiiTheme {
-        WebtoonItem(
-            webtoon = Webtoon(1, "dedes", "Kerajaan", R.drawable.dedes),
-            onItemClicked = { webtoonId ->
-                println("Webtoon Id : $webtoonId")
-            }
-        )
-    }
-}

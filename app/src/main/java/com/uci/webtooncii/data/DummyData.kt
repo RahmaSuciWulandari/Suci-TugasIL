@@ -75,17 +75,97 @@ object DummyData {
         ),
         Webtoonh(
             id = 9,
-            title = "Dedes",
-            author = "egestigi",
-            genre = "Kerajaan",
+            title = "CHUBBINESS",
+            author = "Ivonne Febriani",
+            genre = "Romantis",
             image = R.drawable.dedes,
             preview = "Isekai yang diangkat dari kisah sejarah Indonesia! Seorang mahasiswi tiba-tiba terbangun di tubuh Dedes, seorang gadis yang kelak akan menjadi ibu bagi para raja di tanah Jawa. Tetapi, semakin lama berada dalam tubuh Dedes, dia menyadari bahwa sejarah yang ada tak sepenuhnya benar."
         ) ,
         Webtoonh(
             id = 10,
-            title = "Sweet Home",
-            author = " Kimcharnby, Youngchan Hwang",
-            genre = "Horror",
+            title = "OTENBA",
+            author = "Dihocchi",
+            genre = "Komedi",
+            image = R.drawable.sweethome,
+            preview = "Ketika putus asa sudah melanda... Itulah saatnya kita keluar dari sini.. "
+        ),
+        Webtoonh(
+            id = 11,
+            title = "Not Your Typical Reincarnation Story",
+            author = "DOYOSAY",
+            genre = "Kerajaan",
+            image = R.drawable.dedes,
+            preview = "Isekai yang diangkat dari kisah sejarah Indonesia! Seorang mahasiswi tiba-tiba terbangun di tubuh Dedes, seorang gadis yang kelak akan menjadi ibu bagi para raja di tanah Jawa. Tetapi, semakin lama berada dalam tubuh Dedes, dia menyadari bahwa sejarah yang ada tak sepenuhnya benar."
+        ) ,
+        Webtoonh(
+            id = 12,
+            title = "A Child Who Looks Like Me",
+            author = "FLADA, PATNOC",
+            genre = "Romantis",
+            image = R.drawable.sweethome,
+            preview = "Ketika putus asa sudah melanda... Itulah saatnya kita keluar dari sini.. "
+        ),
+        Webtoonh(
+            id = 13,
+            title = "Killer Peter",
+            author = "Kim Junghyun, Lim lina",
+            genre = "Aksi",
+            image = R.drawable.wee,
+            preview = "Di saat kangen sekolah dan bertemu teman-teman lagi, ada Amu yang kesehariannya di sekolah bisa kamu ikuti! Bersama teman-temannya yang berkelakuan aneh serta bodoh, mereka akan melalui masa SMA yang penuh suka, duka, cita, dan cinta! "
+        ),
+        Webtoonh(
+            id = 14,
+            title = "Iseop's Romance",
+            author = "248, Anna Kim",
+            genre = "Romantis",
+            image = R.drawable.jangsan,
+            preview = "Hong Siah, pelajar super pintar yang telah ditinggal oleh orang tuanya ini kini hidup bersama sang bibi dan membuat kenangan masa sekolah bersama dua sahabatnya. Tapi kenapa dunia seperti tak berpihak padanya? Walau aneh, semua mulai berubah setelah pertemuan Siah dengan siluman harimau, Jangsanbeom. Kehidupannya berubah, tapi dengan cara khas Jangsanbeom. Bagaimana jadinya kehidupan baru Siah? "
+        ),
+        Webtoonh(
+            id = 15,
+            title = "You Cann't Kill Me: The Secret Bride Of the Black Wolf",
+            author = "HAEMIN, Kingkang",
+            genre = "Kerajaan",
+            image = R.drawable.santet,
+            preview = "Biarpun blasteran dukun dan kuntilanak, tapi Mela ingin punya kehidupan seperti gadis remaja normal! Dia mulai bersekolah di SMA umum dan belajar mencari teman. Semua kelihatan lancar, sampai ketika Mela tidak sengaja menyantet salah satu teman sekelasnya... sampai kepalanya putus...."
+        ),
+        Webtoonh(
+            id = 16,
+            title = "Operation: True Love",
+            author = "Klokkalee, Dledumb",
+            genre = "Romantis",
+            image = R.drawable.mevsbig,
+            preview = " Arin, seorang gadis super rapi yang selalu senewen setiap kali melihat segala sesuatu yang berantakan. Suatu hari, kos yang dikelola oleh ibu Arin kedatangan seorang siswa SMA bernama Alvan yang ternyata selain pemalas juga manja dan super berantakan. Keadaan menjadi semakin tidak terkendali ketika Arin dan Alvan bersekolah di sekolah yang sama, apalagi Alvan ternyata juga cukup populer di kalangan para siswi. Apa jadinya ketika dua individu yang saling bertolak belakang sifatnya ini tinggal dan bersekolah di tempat yang sama? "
+        ),
+        Webtoonh(
+            id = 17,
+            title = "Dorm Du",
+            author = "-KAFAZA14-",
+            genre = "Fantasi",
+            image = R.drawable.badword,
+            preview = "Kebayang gak sih, punya pacar yang pemarah, senang mengumpat, dan gualaaaknya minta ampun??? Udah gitu bundamu paling alergi sama kata-kata kasar! Jangan sampai deh mereka berdua bertemu! "
+        ),
+        Webtoonh(
+            id = 18,
+            title = "Hello Babby",
+            author = "Enjelious",
+            genre = "Romantis",
+            image = R.drawable.middle,
+            preview = "Aku benar-benar bisa membuat semuanya jadi lebih menyenangkan! Suatu hari seorang pria muda misterius muncul di hadapan Yeorum, seorang wanita berusia 30 tahun yang menjalani hidup dengan membosankan. Pria yang bernama Jisung itu terus mendekati Yeorum dengan lucunya. Tapi mereka kan bertemu melalui aplikasi dating dengan saling mengganti umur aslinya?! Sebenarnya apa yang diinginkan pria itu?! Komedi romantis yang mendebarkan dari dua orang yang saling menipu!.. "
+        ),
+        Webtoonh(
+            id = 19,
+            title = "My Demon",
+            author = "Choi a-IL",
+            genre = "Romantis",
+            image = R.drawable.dedes,
+            preview = "Isekai yang diangkat dari kisah sejarah Indonesia! Seorang mahasiswi tiba-tiba terbangun di tubuh Dedes, seorang gadis yang kelak akan menjadi ibu bagi para raja di tanah Jawa. Tetapi, semakin lama berada dalam tubuh Dedes, dia menyadari bahwa sejarah yang ada tak sepenuhnya benar."
+        ) ,
+        Webtoonh(
+            id = 20,
+            title = "I Thought My Time Was Up",
+            author = "Essie",
+            genre = "Kerajaan",
             image = R.drawable.sweethome,
             preview = "Ketika putus asa sudah melanda... Itulah saatnya kita keluar dari sini.. "
         ),
