@@ -1,17 +1,15 @@
 package com.uci.webtooncii.presentation
 
-import androidx.compose.foundation.layout.WindowInsets
+//import com.uci.webtooncii.presentation.component.DetailGalleryScreen
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.BrowseGallery
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -30,13 +28,10 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.uci.webtooncii.R
-import com.uci.webtooncii.data.DummyData
-import com.uci.webtooncii.model.Webtoon
 import com.uci.webtooncii.navigation.NavigationItem
 import com.uci.webtooncii.navigation.Screen
 import com.uci.webtooncii.presentation.component.AboutScreen
 import com.uci.webtooncii.presentation.component.DetailGalleryScreen
-//import com.uci.webtooncii.presentation.component.DetailGalleryScreen
 import com.uci.webtooncii.presentation.component.DetailWebtoonScreen
 import com.uci.webtooncii.presentation.component.GalleryScreen
 import com.uci.webtooncii.presentation.component.HomeScreen
@@ -95,7 +90,7 @@ fun WebToonCiiApp(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DynamicTopAppBar(navController: NavHostController,
-                     webtoons: List<Webtoon> = DummyData.listwebtoon3
+
 ) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
@@ -106,9 +101,6 @@ fun DynamicTopAppBar(navController: NavHostController,
             var isSearching by remember { mutableStateOf(false) }
             var searchText by remember { mutableStateOf("") }
 
-            val filteredWebtoons = webtoons.filter {
-                it.title.contains(searchText, ignoreCase = true)
-            }
             TopAppBar(
                 title = {
 
