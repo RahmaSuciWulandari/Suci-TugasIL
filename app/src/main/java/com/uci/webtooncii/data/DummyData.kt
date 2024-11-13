@@ -1,11 +1,8 @@
 package com.uci.webtooncii.data
 
-import com.uci.webtooncii.model.Webtoonh
 import com.uci.webtooncii.R
-import com.uci.webtooncii.model.Gallery
 import com.uci.webtooncii.model.GalleryData
-import com.uci.webtooncii.model.Webtoon
-import kotlin.Int
+import com.uci.webtooncii.model.Webtoonh
 
 object DummyData {
     val listwebtoon = listOf(
@@ -168,127 +165,6 @@ object DummyData {
             genre = "Kerajaan",
             image = R.drawable.sweethome,
             preview = "Ketika putus asa sudah melanda... Itulah saatnya kita keluar dari sini.. "
-        ),
-    )
-
-    val webtoongalleries = listOf(
-    Gallery (
-    id = 1,
-    name = "foto1",
-    photo = R.drawable.elios
-    ),
-    Gallery (
-    id = 2,
-    name = "foto2",
-    photo = R.drawable.sarah
-    ),
-    Gallery (
-    id = 3,
-    name = "foto3",
-    photo = R.drawable.sigit
-    ),
-    Gallery (
-    id = 4,
-    name = "foto4",
-    photo = R.drawable.amu
-    ),
-    Gallery (
-    id = 5,
-    name = "foto5",
-    photo = R.drawable.upi
-    ),
-    Gallery (
-    id = 6,
-    name = "foto6",
-    photo = R.drawable.enzo
-    ),
-    Gallery (
-    id = 7,
-    name = "foto7",
-    photo = R.drawable.foto1
-    ),
-    Gallery (
-    id = 8,
-    name = "foto8",
-    photo = R.drawable.sho
-    ),
-    Gallery (
-    id = 9,
-    name = "foto9",
-    photo = R.drawable.toro
-    ),
-    Gallery (
-    id = 10,
-    name = "foto10",
-    photo = R.drawable.foto6
-    ),
-        Gallery (
-            id = 11,
-            name = "foto1",
-            photo = R.drawable.foto12
-        ),
-    )
-
-    val listwebtoon3 = listOf(
-        Webtoon(
-            id = 1,
-            title = "Dedes",
-            genre = "Kerajaan",
-            image = R.drawable.dedes,
-        ) ,
-        Webtoon(
-            id = 2,
-            title = "Sweet Home",
-            genre = "Horror",
-            image = R.drawable.sweethome,
-        ),
-        Webtoon(
-            id = 3,
-            title = "WEE!!!",
-            genre = "Slice of life",
-            image = R.drawable.wee
-        ),
-        Webtoon(
-            id = 4,
-            title = "The Tiger God Of Jangsan",
-            genre = "Romantis",
-            image = R.drawable.jangsan
-        ),
-        Webtoon(
-            id = 5,
-            title = "Eh, Sorry Kesantet",
-            genre = "Komedi",
-            image = R.drawable.santet,
-            ),
-        Webtoon(
-            id = 6,
-            title = "Me VS Big Slacker Baby",
-            genre = "Drama",
-            image = R.drawable.mevsbig,
-            ),
-        Webtoon(
-            id = 7,
-            title = "Bad Word Baby",
-            genre = "Slice of life",
-            image = R.drawable.badword,
-        ),
-        Webtoon(
-            id = 8,
-            title = "Meet Me in the Middle",
-            genre = "Romantis",
-            image = R.drawable.middle,
-        ),
-        Webtoon(
-            id = 9,
-            title = "Dedes",
-            genre = "Kerajaan",
-            image = R.drawable.dedes,
-        ) ,
-        Webtoon(
-            id = 10,
-            title = "Sweet Home",
-            genre = "Horror",
-            image = R.drawable.sweethome,
         ),
     )
 

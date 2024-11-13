@@ -73,7 +73,7 @@ fun WebToonCiiApp(
                 arguments = listOf(navArgument("webtoonId") { type = NavType.IntType })
             ) { navBackStackEntry ->
                 val webtoonId = navBackStackEntry.arguments?.getInt("webtoonId")
-                DetailWebtoonScreen(navController = navController, webtoonsId = webtoonId)
+                DetailWebtoonScreen(webtoonsId = webtoonId)
             }
             composable(
                 Screen.DetailGallery.route + "/{galleryId}",

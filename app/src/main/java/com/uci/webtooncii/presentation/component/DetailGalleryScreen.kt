@@ -4,7 +4,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
@@ -23,12 +22,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
 import com.uci.webtooncii.data.DummyData.profilgalery
-import com.uci.webtooncii.model.Gallery
 import com.uci.webtooncii.model.GalleryData
-import com.uci.webtooncii.model.Webtoonh
-import com.uci.webtooncii.navigation.Screen
 
 @Composable
 fun DetailGalleryScreen(
@@ -44,7 +39,7 @@ fun DetailGalleryScreen(
     Column(
         modifier = modifier
     ) {
-        DetailGalleryContent(newGalleryList = newGalleryList, navController = navController)
+        DetailGalleryContent(newGalleryList = newGalleryList)
     }
 }
 
@@ -52,8 +47,7 @@ fun DetailGalleryScreen(
 @Composable
 private fun DetailGalleryContent(
     newGalleryList: List<GalleryData>,
-    modifier: Modifier = Modifier,
-    navController: NavController
+    modifier: Modifier = Modifier
 ) {
     Column(
         verticalArrangement = Arrangement.Center,

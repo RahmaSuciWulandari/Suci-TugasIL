@@ -34,7 +34,7 @@ import com.uci.webtooncii.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(modifier: Modifier = Modifier) {
+fun AboutScreen() {
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.Start
