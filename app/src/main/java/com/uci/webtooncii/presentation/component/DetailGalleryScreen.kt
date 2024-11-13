@@ -21,14 +21,12 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
 import com.uci.webtooncii.data.DummyData.profilgalery
 import com.uci.webtooncii.model.GalleryData
 
 @Composable
 fun DetailGalleryScreen(
     modifier: Modifier = Modifier,
-    navController: NavController,
     galleryId: Int?
 ) {
     // Filter untuk mendapatkan item yang sesuai dengan galleryId

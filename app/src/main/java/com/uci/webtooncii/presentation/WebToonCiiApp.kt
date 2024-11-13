@@ -80,7 +80,7 @@ fun WebToonCiiApp(
                 arguments = listOf(navArgument("galleryId") { type = NavType.IntType })
             ) { navBackStackEntry ->
                 val galleryId = navBackStackEntry.arguments?.getInt("galleryId")
-                DetailGalleryScreen(navController = navController, galleryId = galleryId)
+                DetailGalleryScreen(galleryId = galleryId)
             }
 
         }
