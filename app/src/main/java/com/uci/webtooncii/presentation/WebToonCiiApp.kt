@@ -171,23 +171,23 @@ fun DynamicTopAppBar(navController: NavHostController,
                 }
             )
         }
-//        Screen.Detail.route + "/{galleryId}" -> {
-//                CenterAlignedTopAppBar(
-//                title = {
-//                    Text(
-//                        "Profile Character",
-//                    )
-//                },
-//        navigationIcon = {
-//            IconButton(onClick = {navController.popBackStack()}) {
-//                Icon(
-//                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-//                    contentDescription = "Localized description"
-//                )
-//            }
-//        },
-//            )
-//    }
+        Screen.DetailGallery.route + "/{galleryId}" -> {
+                CenterAlignedTopAppBar(
+                title = {
+                    Text(
+                        "Profile Character",
+                    )
+                },
+        navigationIcon = {
+            IconButton(onClick = {navController.popBackStack()}) {
+                Icon(
+                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                    contentDescription = "Localized description"
+                )
+            }
+        },
+            )
+    }
         Screen.About.route -> {
             CenterAlignedTopAppBar(
                 title = {
