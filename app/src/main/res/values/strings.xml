@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebToonCii</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_about">About</string>
+    <string name="menu_search">Search</string>
+    <string name="detail_webtoon">Detail Webtoon</string>
+</resources>
