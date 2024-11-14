@@ -76,7 +76,7 @@ private fun DetailGalleryContent(
                 fontWeight = FontWeight.Bold
             )
             Text(
-                text = "Tanggal Lahir: ${newGalleryList[0].tl}",
+                text = "\nTanggal Lahir: ${newGalleryList[0].tl}",
                 style = MaterialTheme.typography.titleSmall
             )
             Text(
@@ -92,7 +92,7 @@ private fun DetailGalleryContent(
                 style = MaterialTheme.typography.titleSmall
             )
             Text(
-                text = "Makanan Favorit: ${newGalleryList[0].fav}",
+                text = "Favorit: ${newGalleryList[0].fav}",
                 style = MaterialTheme.typography.titleSmall
             )
             Text(

@@ -80,6 +80,14 @@ private fun DetailWebtoonContent(
                     text = newWebtoonsList[0].preview,
                     style = MaterialTheme.typography.titleSmall,
                 )
+                Text(
+                    text = "\nStatus: ${newWebtoonsList[0].status}",
+                    style = MaterialTheme.typography.titleSmall,
+                )
+                Text(
+                    text = "\nEpisode: ${newWebtoonsList[0].episode}",
+                    style = MaterialTheme.typography.titleSmall,
+                )
             }
         }
 }

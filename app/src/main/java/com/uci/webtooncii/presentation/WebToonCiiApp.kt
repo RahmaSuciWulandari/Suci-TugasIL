@@ -37,7 +37,6 @@ import com.uci.webtooncii.presentation.component.GalleryScreen
 import com.uci.webtooncii.presentation.component.HomeScreen
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WebToonCiiApp(
     modifier: Modifier = Modifier,

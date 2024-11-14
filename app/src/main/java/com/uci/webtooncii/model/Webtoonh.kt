@@ -6,5 +6,7 @@ data class Webtoonh(
     val author: String,
     val genre: String,
     val image: Int,
-    val preview: String
+    val preview: String,
+    val status : String,
+    val episode: Int
 )
