@@ -26,7 +26,7 @@ import com.uci.webtooncii.model.Webtoonh
 
 
 @Composable
-fun DetailWebtoonScreen(
+fun DetailWebtoonScreens(
     modifier: Modifier = Modifier,
     webtoonsId: Int?
 ) {
