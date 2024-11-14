@@ -290,7 +290,7 @@ object DummyData {
             tb= "",
             bb= "",
             fav= "Amu",
-            suka="Musik",
+            suka="Menyanyi dan Musik",
             gsuka="Kehilangan orang yang dicintainya",
         ),
         GalleryData(
