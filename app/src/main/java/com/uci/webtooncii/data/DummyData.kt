@@ -271,7 +271,7 @@ object DummyData {
         ),
         GalleryData(
             id=6,
-            name="Elios",
+            name="Enzo",
             photo= R.drawable.enzo,
             tl= "-",
             goldar= "-",
